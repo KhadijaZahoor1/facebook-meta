@@ -1,0 +1,44 @@
+.navbar {
+    >div {
+      background: white !important;
+    }
+    // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 0 !important;
+    height: 56px;
+    .navbar-brand {
+      width: 113px;
+      padding: 0 !important;
+      img {
+        width: 100%;
+      }
+    }
+    .form-fields {
+      justify-content: flex-end !important;
+      padding-right: 20px;
+      align-items: center;
+      gap: 8px;
+    }
+    .form-control {
+      padding: 0 toRem(20px) !important;
+      width: 25% !important;
+      border: 1px solid #ced0d4 !important;
+      &:hover {
+        border: 1px solid #65676b !important;
+      }
+    }
+    .login-btn {
+      background: #1b74e4;
+      color: white;
+      border: none;
+    }
+    .forget-password {
+      color: #216fdb;
+      &:hover {
+        color: #216fdb;
+        text-decoration: underline;
+      }
+      
+    }
+  
+  }

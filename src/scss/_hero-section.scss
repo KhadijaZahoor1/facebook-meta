@@ -1,0 +1,83 @@
+
+.main-bg {
+    //background-image: url("../assets/colobanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to top, #FFFFFF, rgb(255, 255, 255), rgba(255, 255, 255, 0.7), #7f69bb85, #8f77ceba);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .hero-banner {
+        display: flex;
+        justify-content: center;
+        img {
+            border-radius: 0px 0px 8px 8px;
+           }
+    }
+    .hero-content {
+        max-width: 940px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding:  0 20px 20px;
+        border-bottom: 1px solid #ced0d4;
+        .meta-circle {
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+            background: white;
+            padding-top: 4px;
+            margin-top: -12px;
+            cursor: pointer;
+            .meta-img {
+                border: 2px solid #0000001a;
+                border-radius: 50%;
+                width: 132px;
+                height: 132px;
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .meta-title {
+            .meta-title-points {
+                gap: 5px;
+                font-weight: 500;
+                color: #656768;
+                span
+                .star {
+                    color: rgb(255, 208, 0);
+                    font-size: 20px;
+                } 
+                .info {
+                    color: #65676b;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .navHero {
+        max-width: 940px;
+        margin: auto;
+        .nav {
+            .links{
+                color: #656768;
+                font-size: 16px;
+                font-weight: 500;
+                &:hover {
+                    border-bottom: 3px solid #1876f2;
+                    color: #1876f2;
+                }
+                &:active,
+                &:first-child {
+                    color: #1876f2;
+                }
+            }
+            a {
+                color: #656768;
+                font-size: 16px;
+                font-weight: 500; 
+            }
+        }
+    }
+   
+}
